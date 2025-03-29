@@ -16,8 +16,8 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
-const drawerWidth = 240;
-const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
+const drawerWidth = 240 ;
+const navItems = [['Expériences', 'Experiences'], ['Formation', 'Formation'], ['Projets', 'Projets']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
@@ -59,9 +59,8 @@ function Navigation({parentToChild, modeChange}: any) {
 
   const drawer = (
     <Box className="navigation-bar-responsive" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <p className="mobile-menu-top"><ListIcon/>Menu</p>
       <Divider />
-      <List>
+      <List style={{marginRight:'40px'}}>
         {navItems.map((item) => (
           <ListItem key={item[0]} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} onClick={() => scrollToSection(item[1])}>
@@ -76,8 +75,8 @@ function Navigation({parentToChild, modeChange}: any) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav" id="navigation" className={`navbar-fixed-top${scrolled ? ' scrolled' : ''}`}>
-        <Toolbar className='navigation-bar'>
+      <AppBar component="nav" id="navigation" className={`navbar-fixed-top${scrolled ? ' scrolled' : ''}`} >
+        <Toolbar className='navigation-bar' >
           <IconButton
             color="inherit"
             aria-label="open drawer"

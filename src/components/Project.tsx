@@ -13,58 +13,43 @@ import '../assets/styles/Project.scss';
 
 function Project() {
     return(
-    <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+    <div className="projects-container" id="Projets">
+        <h1>Projet personnel</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a ><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <div style={{}}><h2 style={{textDecoration: 'none'}}>L'analyse des données de Spotify et la prédiction de la popularité des chansons</h2></div>
+                <p>Développement de divers modèles d'apprentissage automatique tels que la régression linéaire, la descente de gradient stochastique et l'arbre de décision</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a ><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Système de recommandation de Netflix</h2></a>
+                <p>Vectoriser le contenu des films en utilisant TF-IDF, puis regrouper les films similaires à l'aide de la similarité cosinus en fonction des besoins des clients</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a ><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Prédiction de la maladie Hémophile</h2></a>
+                <p>Implémentation des modèles de machine learning tels que KNN, Naive Bayes gaussien et arbre de décision en utilisant la validation croisée K-Fold, afin de sélectionner le meilleur modèle pour détecter si un patient est malade ou non</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a ><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Détection du meilleur emplacement pour une quantité donnée dans l'entrepôt</h2></a>
+                <p>Le meilleur emplacement pour une quantité donnée se base sur le calcul des distances entre l'emplacement actuel et les autres emplacements en temps réel, ce qui implique l'utilisation du modèle de machine learning K-Nearest Neighbors</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a ><img src={mock06} className="zoom" alt="thumbnail" width="100%" height="40%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Prédiction des précipitations pour le mois de mars</h2></a>
+                <p>En utilisant la régression logistique, nous obtenons une prédiction de 95 % pour le mois de mars</p>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a ><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Web scraping des données de température pour l'année 2024</h2></a>
+                <p>Extraction des données du site de météo en appliquant une certaine logique afin qu'elles soient exploitables pour l'analyse de données et la science des données </p>
             </div>
             <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a ><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Web scraping des données de distance entre ma localisation et les autres villes</h2></a>
+                <p>Ce processus est conçu pour l'ingénierie des données afin de former des modèles de machine learning qui soient performants à la fois en entraînement et en test</p>
             </div>
         </div>
     </div>

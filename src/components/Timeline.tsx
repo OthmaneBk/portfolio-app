@@ -8,61 +8,105 @@ import '../assets/styles/Timeline.scss'
 
 function Timeline() {
   return (
-    <div id="history">
-      <div className="items-container">
-        <h1>Career History</h1>
-        <VerticalTimeline>
+    <div>
+      <div id="Experiences">
+        <div className="items-container">
+          <h1>Expériences</h1>
+          <VerticalTimeline>
+
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
-            <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
-            </p>
-          </VerticalTimelineElement>
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+              contentArrowStyle={{ borderRight: '7px solid  white' }}
+              date="1 Mars 2025 - Aujourd'hui"
+              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} />}
+            >
+              <h3 className="vertical-timeline-element-title">Responsable des conférenciers et des partenariats</h3>
+              <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
+              <p>
+              En tant que Responsable des conférenciers et des partenariats chez MDS, je pilote la stratégie de relations externes de l'organisation en me spécialisant dans les domaines de l'intelligence artificielle. Je suis chargé(e) d'identifier, de sélectionner et de collaborer avec des experts renommés en machine learning, deep learning et agents IA pour nos événements
+              </p>
+            </VerticalTimelineElement>
+
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
-          </VerticalTimelineElement>
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+              contentArrowStyle={{ borderRight: '7px solid  white' }}
+              date="1 Mars 2025 - Aujourd'hui"
+              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} />}
+            >
+              <h3 className="vertical-timeline-element-title">Développeur Full Stack</h3>
+              <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
+              <p>
+              Développement d’une application web pour une startup Pub2Win de l’incubateur d’ESISA, ceci est axé sur le monitoring de l’application à travers la création et la gestion des Dashboards, ces derniers permettent de visualiser et d’analyser les donnés clés de l’application.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+              contentArrowStyle={{ borderRight: '7px solid  white' }}
+              date="1 Mai - 1 Septembre 2024"
+              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} />}
+            >
+              <h3 className="vertical-timeline-element-title">Développeur Stagiaire</h3>
+              <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
+              <p>
+              Dématérialisation des processus de la gestion de stock :
+              Développement Web Full Stack d’une application pour une meilleure efficacité et traçabilité avec l’intégration de L’Intelligence d’Artificielle et le Machine Learning.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="1 Février - 15 Avril"
+              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} />}
+            >
+              <h3 className="vertical-timeline-element-title">Développeur Full Stack et Ingenierie en Machine Learining</h3>
+              <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
+              <p>
+              Développement d’une application mobile intelligente pour les patients hémophiles, intégrant des algorithmes de machine learning pour la prédiction de la maladie et le suivi des pas quotidiens afin de promouvoir un mode de vie sain.
+              </p>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
+        </div>
+      </div>
+
+      <div id="Formation">
+        <div className="items-container">
+          <h1>Formation</h1>
+          <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
-            </p>
-          </VerticalTimelineElement>
-        </VerticalTimeline>
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+              contentArrowStyle={{ borderRight: '7px solid  white' }}
+              date="2024-2025"
+              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} />}
+            >
+              <h3 className="vertical-timeline-element-title">1ère année master en ingénierie des systèmes d’information et Intelligence Artificielle.</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2021-2024"
+              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} />}
+            >
+              <h3 className="vertical-timeline-element-title">Licence en Ingénierie Logicielle (bac+3)</h3>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2020-2021"
+              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} />}
+            >
+              <h3 className="vertical-timeline-element-title">Baccalauréat en Sciences Physiques</h3>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
+        </div>
       </div>
     </div>
   );

@@ -30,6 +30,33 @@
     transform: scale(1.05);
 }
 
+
+.white-cards {
+    position: fixed; /* Make it fixed */
+    top: 50%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust for true centering */
+    z-index: 1000; /* Make sure it appears above other content */
+    background-color: white; /* Background color for the card */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    width: 500px; /* Optional: Set a fixed width */
+    height: 500px; /* Adjust height based on content */
+}
+
+.white-cards .card {
+    padding: 20px;
+    text-align: center;
+}
+
+.white-cards .card button {
+    margin-top: 10px;
+}
+
+
+  
+
 @media screen {
     @media (max-width: 700px) {
         .projects-container {
