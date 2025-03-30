@@ -46,14 +46,14 @@ function Timeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="1 Février - 15 Avril"
+              date="1 Septembre - 29 Septembre  2023"
               iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
-              <h3 className="vertical-timeline-element-title">Développeur Android et Ingenierie en Machine Learining</h3>
+              <h3 className="vertical-timeline-element-title">Stage de découverte de l’Administration TGR</h3>
               <h4 className="vertical-timeline-element-subtitle">Fès, Maroc</h4>
               <p>
-              Développement d’une application mobile intelligente pour les patients hémophiles, intégrant des algorithmes de machine learning pour la prédiction de la maladie et le suivi des pas quotidiens afin de promouvoir un mode de vie sain.
+              Une étude approfondie des processus tels que GID et GIR, accompagnée d’une participation active à diverses conférences sur le numérique, notamment celles portant sur les enjeux de la transformation numérique.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
