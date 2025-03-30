@@ -22,20 +22,6 @@ function Timeline() {
               iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
-              <h3 className="vertical-timeline-element-title">Responsable des conférenciers et des partenariats</h3>
-              <p>
-              En tant que Responsable des conférenciers et des partenariats chez MDS, je pilote la stratégie de relations externes de l'organisation en me spécialisant dans les domaines de l'intelligence artificielle. Je suis chargé d'identifier, de sélectionner et de collaborer avec des experts renommés en IA pour nos événements.
-              </p>
-            </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-              contentArrowStyle={{ borderRight: '7px solid  white' }}
-              date="1 Mars 2025 - Aujourd'hui"
-              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-              icon={<FontAwesomeIcon icon={faBriefcase} />}
-            >
               <h3 className="vertical-timeline-element-title">Développeur Full Stack</h3>
               <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
               <p>
@@ -70,6 +56,29 @@ function Timeline() {
               Développement d’une application mobile intelligente pour les patients hémophiles, intégrant des algorithmes de machine learning pour la prédiction de la maladie et le suivi des pas quotidiens afin de promouvoir un mode de vie sain.
               </p>
             </VerticalTimelineElement>
+          </VerticalTimeline>
+        </div>
+      </div>
+
+      <div id="bene">
+        <div className="items-container">
+          <h1>Bénévolat</h1>
+          <VerticalTimeline>
+
+          <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+              contentArrowStyle={{ borderRight: '7px solid  white' }}
+              date="1 Mars 2025 - Aujourd'hui"
+              iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} />}
+            >
+              <h3 className="vertical-timeline-element-title">Responsable des conférenciers et des partenariats</h3>
+              <p>
+              En tant que Responsable des conférenciers et des partenariats chez MDS, je pilote la stratégie de relations externes de l'organisation en me spécialisant dans les domaines de l'intelligence artificielle. Je suis chargé d'identifier, de sélectionner et de collaborer avec des experts renommés en IA pour nos événements.
+              </p>
+            </VerticalTimelineElement>
+
           </VerticalTimeline>
         </div>
       </div>
