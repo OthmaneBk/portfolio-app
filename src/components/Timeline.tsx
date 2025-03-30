@@ -25,7 +25,7 @@ function Timeline() {
               <h3 className="vertical-timeline-element-title">Responsable des conférenciers et des partenariats</h3>
               <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
               <p>
-              En tant que Responsable des conférenciers et des partenariats chez MDS, je pilote la stratégie de relations externes de l'organisation en me spécialisant dans les domaines de l'intelligence artificielle. Je suis chargé(e) d'identifier, de sélectionner et de collaborer avec des experts renommés en machine learning, deep learning et agents IA pour nos événements
+              En tant que Responsable des conférenciers et des partenariats chez MDS, je pilote la stratégie de relations externes de l'organisation en me spécialisant dans les domaines de l'intelligence artificielle. Je suis chargé d'identifier, de sélectionner et de collaborer avec des experts renommés en IA pour nos événements.
               </p>
             </VerticalTimelineElement>
 
