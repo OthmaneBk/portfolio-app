@@ -23,7 +23,7 @@ function Timeline() {
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
               <h3 className="vertical-timeline-element-title">Développeur Full Stack</h3>
-              <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
+              <h4 className="vertical-timeline-element-subtitle">Fès, Maroc</h4>
               <p>
               Développement d’une application web pour une startup Pub2Win de l’incubateur d’ESISA, ceci est axé sur le monitoring de l’application à travers la création et la gestion des Dashboards, ces derniers permettent de visualiser et d’analyser les donnés clés de l’application.
               </p>
@@ -38,7 +38,7 @@ function Timeline() {
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
               <h3 className="vertical-timeline-element-title">Développeur Stagiaire</h3>
-              <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
+              <h4 className="vertical-timeline-element-subtitle">Fès, Maroc</h4>
               <p>
               Dématérialisation des processus de la gestion de stock :
               Développement Web Full Stack d’une application pour une meilleure efficacité et traçabilité avec l’intégration de L’Intelligence d’Artificielle et le Machine Learning.
@@ -50,8 +50,8 @@ function Timeline() {
               iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
-              <h3 className="vertical-timeline-element-title">Développeur Full Stack et Ingenierie en Machine Learining</h3>
-              <h4 className="vertical-timeline-element-subtitle">Maroc, Fès</h4>
+              <h3 className="vertical-timeline-element-title">Développeur Android et Ingenierie en Machine Learining</h3>
+              <h4 className="vertical-timeline-element-subtitle">Fès, Maroc</h4>
               <p>
               Développement d’une application mobile intelligente pour les patients hémophiles, intégrant des algorithmes de machine learning pour la prédiction de la maladie et le suivi des pas quotidiens afin de promouvoir un mode de vie sain.
               </p>
