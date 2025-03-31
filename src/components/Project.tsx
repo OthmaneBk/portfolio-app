@@ -9,6 +9,9 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
+import Rec from '../assets/images/Rec.png';
+import PopularName from '../assets/images/PopularName.png';
+
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -50,6 +53,16 @@ function Project() {
                 <a ><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a ><h2 style={{textDecoration: 'none'}}>Web scraping des données de distance entre ma localisation et les autres villes</h2></a>
                 <p>Ce processus est conçu pour l'ingénierie des données afin de former des modèles de machine learning qui soient performants à la fois en entraînement et en test</p>
+            </div>
+            <div className="project">
+                <a ><img src={Rec} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Outil de détection et reconnaissance faciale</h2></a>
+                <p>Ce mécanisme est conçu pour détecter les visages à l'aide d'OpenCV en les transformant en matrices, puis en les comparant avec les images stockées afin de fournir l'identité de la personne présente.</p>
+            </div>
+            <div className="project">
+                <a ><img src={PopularName} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Scrapping de Popular Baby Names </h2></a>
+                <p>Utiliser différentes dataSet sur les prénoms populaires de bébés puis effectuer un processus ETL (Extract, Transform, Load) pour que ces données deviennent une information puis une connaissance en répondant aux questions : "Qu'est-ce qui s'est passé" et "Pourquoi cela s'est-il passé ?". Enfin, fournir des insights qui créent de la valeur à partir des données pour les clients finaux.</p>
             </div>
         </div>
     </div>
