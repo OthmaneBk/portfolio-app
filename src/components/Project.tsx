@@ -12,6 +12,7 @@ import mock10 from '../assets/images/mock10.png';
 import Rec from '../assets/images/Rec.png';
 import PopularName from '../assets/images/PopularName.png';
 import logs from '../assets/images/logs.png';
+import Colle from '../assets/images/Colle.png';
 
 import '../assets/styles/Project.scss';
 
@@ -69,6 +70,11 @@ function Project() {
                 <a ><img src={logs} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a ><h2 style={{textDecoration: 'none'}}>Web log Analyser</h2></a>
                 <p>Un site web dédié aux dashboards de différentes sources de données de logs tels que error log, access log ou secure log, en appliquant le processus ETL afin de les stocker dans une base de données semi-structurée (MongoDB). Ce dernier nous servira à visualiser les données sous forme de dashboard en répondant à des questions comme les URLs non trouvées (NOT FOUND), les navigateurs utilisés (BROWSERS), etc.</p>
+            </div>
+            <div className="project">
+                <a ><img src={Colle} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><h2 style={{textDecoration: 'none'}}>Impact de la santé mentale sur la productivité individuelle</h2></a>
+                <p>Ce projet a pour but d'analyser et prendre des décisions déterministes en se basant sur des hypothèses statistiques telles que le test de significativité des coefficients ou le test du modèle global. Nous avons collecté des données en créant un formulaire. Pour l'analyse de ces données, nous utiliserons l'ACP (Analyse en Composantes Principales) qui permet de réduire l'information en des composants prédéterminés pour les variables quantitatives, notamment via la méthode du coude. Nous emploierons également l'AFC (Analyse Factorielle des Correspondances) qui vise à capturer les relations entre les variables catégorielles.</p>
             </div>
         </div>
     </div>
