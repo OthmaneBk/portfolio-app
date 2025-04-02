@@ -37,7 +37,7 @@ function Project() {
                 <p>Implémentation des modèles de machine learning tels que KNN, Naive Bayes gaussien et arbre de décision en utilisant la validation croisée K-Fold, afin de sélectionner le meilleur modèle pour détecter si un patient est malade ou non.</p>
             </div>
             <div className="project">
-                <a ><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a ><img src={mock07} className="zoom" alt="thumbnail" width="100%" height="40%"/></a>
                 <a ><h2 style={{textDecoration: 'none'}}>Détection du meilleur emplacement pour une quantité donnée dans l'entrepôt</h2></a>
                 <p>Le meilleur emplacement pour une quantité donnée se base sur le calcul des distances entre l'emplacement actuel et les autres emplacements en temps réel, ce qui implique l'utilisation du modèle de machine learning K-Nearest Neighbors.</p>
             </div>
