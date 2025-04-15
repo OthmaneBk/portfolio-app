@@ -5,6 +5,7 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
+import Hackaton from "./Hackaton";
 
 function Timeline() {
   return (
@@ -18,7 +19,7 @@ function Timeline() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
               contentArrowStyle={{ borderRight: '7px solid  white' }}
-              date="1 Mars 2025 - Aujourd'hui"
+              date="1 Mars 2025 - 15 Avril 2025"
               iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
@@ -59,6 +60,8 @@ function Timeline() {
           </VerticalTimeline>
         </div>
       </div>
+      
+      <Hackaton/>
 
       <div id="bene">
         <div className="items-container">

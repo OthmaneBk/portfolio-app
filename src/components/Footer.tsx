@@ -8,7 +8,7 @@ function Footer() {
     <footer>
       <div>
         <a href="https://github.com/OthmaneBk" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://ma.linkedin.com/in/othmane-kella-bennani-938142294/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        <a href="https://ma.linkedin.com/in/othmane-kella-bennani-938142294/" target="_blank" rel="noreferrer" style={{width:'60rem', height:'60rem'}}><LinkedInIcon/></a>
       </div>
       <p>Portfolio de Kella Bennani Othmane</p>
     </footer>
