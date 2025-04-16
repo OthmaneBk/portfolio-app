@@ -11,15 +11,7 @@
     grid-gap: 2rem;
 }
   
-.card {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    transform-style: preserve-3d;
-    transition: transform 0.6s;
-    perspective: 1000px;
-    margin-bottom: 1rem;
-}
+
 
 .zoom {
     width: 100%;
@@ -30,23 +22,6 @@
     object-fit: contain; /* Ajuste l'image au conteneur */
 }
 
-.front, .back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    backface-visibility: hidden;
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.front {
-    display: flex;
-    flex-direction: column;
-    transform: rotateY(0deg);
-    overflow: hidden; /* Empêche le contenu de déborder */
-}
-
 .front h2 {
     font-size: 1rem; /* Réduit la taille du texte */
     padding: 0.5rem;
@@ -54,14 +29,7 @@
 }
 
 
-.back {
-    color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: rotateY(180deg);
-    
-}
+
 
 /* Modification du sélecteur pour cibler uniquement la carte survolée */
 .card:hover {
