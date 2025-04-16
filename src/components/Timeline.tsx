@@ -13,6 +13,7 @@ function Timeline() {
       <div id="Experiences">
         <div className="items-container">
           <h1>Expériences</h1>
+          
           <VerticalTimeline>
 
           <VerticalTimelineElement
