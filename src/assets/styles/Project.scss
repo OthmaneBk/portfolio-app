@@ -13,19 +13,13 @@
   
 
 
-.zoom {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 0.313rem 0.313rem 0 0;
-    height: 180px; /* Réduit légèrement la hauteur de l'image */
-    object-fit: contain; /* Ajuste l'image au conteneur */
-}
 
 .front h2 {
     font-size: 1rem; /* Réduit la taille du texte */
     padding: 0.5rem;
     margin: 0;
+    align-items: center;
+    text-align: center;
 }
 
 
