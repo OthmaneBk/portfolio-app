@@ -15,6 +15,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
+import '../assets/styles/Navigation.scss';
 
 const drawerWidth = 240 ;
 const navItems = [['Expériences', 'Experiences'],['hackathon','hack'],['Bénévolat','bene'],['Formation', 'Formation'], ['Projets', 'Projets'], ];
@@ -60,10 +61,10 @@ function Navigation({parentToChild, modeChange}: any) {
   const drawer = (
     <Box className="navigation-bar-responsive" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Divider />
-      <List style={{marginRight:'40px'}}>
+      <List style={{marginRight:'50px'}}>
         {navItems.map((item) => (
           <ListItem key={item[0]} disablePadding>
-            <ListItemButton className="button-item" onClick={() => scrollToSection(item[1])}>
+            <ListItemButton onClick={() => scrollToSection(item[1])}>
               <ListItemText primary={item[0]} />
             </ListItemButton>
           </ListItem>

@@ -128,13 +128,12 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 
 .zoom {
-  width: auto; /* Permet à l'image de garder son ratio d'aspect */
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px !important;
-  margin-left: auto; /* Centre horizontalement */
-  margin-right: auto; /* Centre horizontalement */
-  box-shadow: #fbfdff 0px 0px 10px 0px;
+  width: 75%;          /* Largeur fixe au lieu de min-width */
+  height: 15.625rem;
+  border-radius: 0.5rem !important;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: #fbfdff 0rem 0rem 0.625rem 0rem;
 }
 
 .back {
@@ -147,6 +146,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   box-shadow: 0 4px 8px #fbfdff;
   border-radius: 8px;
 }
+
 
 /* Styles spécifiques pour le mode clair */
 .light-mode .front {
@@ -170,7 +170,14 @@ p, a, h1, h2, h3, h4, h5, label, button {
     background-color: #f8f9fa;
   }
 
-  p, a, h1, h2, h3, h4, h5, label, button {
+  .navigation-bar  button:hover {
+    background-color: #f8f9fa;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #0d1116;
+  }
+
+  p, a, h1, h2, h3, h4, h5, label, button{
     color: #0d1116;
   }
 
