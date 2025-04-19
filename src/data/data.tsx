@@ -30,12 +30,12 @@ const projects: ProjectType[] = [
     {
         image: mock08,
         title: "Prédiction de la maladie Hémophile",
-        description: "Implémentation des modèles de machine learning tels que KNN, Naive Bayes gaussien et arbre de décision en utilisant la validation croisée K-Fold, afin de sélectionner le meilleur modèle pour détecter si un patient est malade ou non."
+        description: "Implémentation des modèles de machine learning tels que KNN, Naive Bayes gaussien et arbre de décision en utilisant la validation croisée K-Fold, afin de sélectionner le meilleur modèle pour détecter si un patient est malade ou non. Ce système est intégré dans une application mobile développée avec Flutter, rendant le diagnostic accessible directement depuis un smartphone."
     },
     {
         image: mock07,
         title: "Détection du meilleur emplacement pour une quantité donnée dans l'entrepôt",
-        description: "Le meilleur emplacement pour une quantité donnée se base sur le calcul des distances entre l'emplacement actuel et les autres emplacements en temps réel, ce qui implique l'utilisation du modèle de machine learning K-Nearest Neighbors."
+        description: "Le meilleur emplacement pour une quantité donnée se base sur le calcul des distances entre l'emplacement actuel et les autres emplacements en temps réel, ce qui implique l'utilisation du modèle de machine learning K-Nearest Neighbors. En développant des interfaces (ReactJs) responsives pour le test bêta."
     },
     {
         image: mock06,
