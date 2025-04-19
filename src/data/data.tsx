@@ -50,12 +50,12 @@ const projects: ProjectType[] = [
     {
         image: mock04,
         title: "Web scraping des données de distance entre une localisation précise et les autres villes",
-        description: "Ce processus est conçu pour l'ingénierie des données afin de former des modèles de machine learning qui soient performants à la fois en entraînement et en test."
+        description: "Le feature engineering, notamment l'incorporation de variables pertinentes comme distanceKm, enrichit la représentation des données, permettant aux algorithmes de ML de capturer des patterns complexes, améliorant ainsi les performances en entraînement et la généralisation en test."
     },
     {
         image: Rec,
         title: "Outil de détection et reconnaissance faciale",
-        description: "Ce mécanisme est conçu pour détecter les visages à l'aide d'OpenCV en les transformant en matrices, puis en les comparant avec les images stockées afin de fournir l'identité de la personne présente."
+        description: "Notre processus de reconnaissance faciale suit ces étapes clés: détection des visages dans l'image source, transformation en matrices numériques, application d'analyses statistiques pour extraire les caractéristiques faciales, comparaison avec une base de données d'images préenregistrées pour l'identification, et exécution en temps réel sur flux vidéo avec déploiement via des end-points Flask."
     },
     {
         image: PopularName,
@@ -70,7 +70,7 @@ const projects: ProjectType[] = [
     {
         image: Colle,
         title: "Impact de la santé mentale sur la productivité individuelle",
-        description: "Ce projet a pour but d'analyser et prendre des décisions déterministes en se basant sur des hypothèses statistiques telles que le test de significativité des coefficients ou le test du modèle global. Nous avons collecté des données en créant un formulaire. Pour l'analyse de ces données, nous utiliserons l'ACP et l'AFC qui visent à capturer les relations entre les variables."
+        description: "Ce projet analyse des données collectées via formulaire pour prendre des décisions déterministes basées sur des tests statistiques (significativité des coefficients, test du modèle global). Nous appliquons l'ACP et l'AFC pour explorer les relations entre variables, puis utilisons la régression logistique avec un seuil (threshold) pour diagnostiquer la difficulté de la personne."
     }
 ];
 
