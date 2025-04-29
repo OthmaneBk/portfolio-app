@@ -9,6 +9,8 @@ import Rec from '../assets/images/Rec.png';
 import PopularName from '../assets/images/PopularName.png';
 import logs from '../assets/images/logs.png';
 import Colle from '../assets/images/Colle.png';
+import Stu from '../assets/images/Stu.jpeg';
+import kafW from '../assets/images/kaWhite.png';
 
 interface ProjectType {
     image: string;
@@ -17,6 +19,16 @@ interface ProjectType {
 }
 
 const projects: ProjectType[] = [
+    {
+        image: kafW,
+        title: "L'extraction des données via Apache Kafka",
+        description: "Ce système consiste à manipuler Apache Kafka, permettant de centraliser les données de sources multiples à l’aide de producers et consumers via des topics. Utilisation de Docker pour déployer une infrastructure Kafka isolée, optimisant la collecte, le stockage et le traitement des données en temps réel."
+    },
+    {
+        image: Stu,
+        title: "L'analyse des données de dataset Students Performance et la prédiction du score en mathématiques",
+        description: "Application du cadre OSEMN (Obtain, Scrub, Explore, Model, iNterpret) sur le dataset Student Performance, avec l'utilisation d'un modèle de régression linéaire pour prédire le score en mathématiques d’un étudiant et l'évaluant à l'aide de MSE et R au carré."
+    },
     {
         image: mock10,
         title: "L'analyse des données de Spotify et la prédiction de la popularité des chansons",
