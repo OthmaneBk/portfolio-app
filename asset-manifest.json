@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.21ffa260.css",
-    "main.js": "/portfolio-app/static/js/main.12ce0e04.js",
+    "main.js": "/portfolio-app/static/js/main.813144db.js",
     "static/media/mock05.png": "/portfolio-app/static/media/mock05.a5b8bd3874dad94f5f9c.png",
     "static/media/Colle.png": "/portfolio-app/static/media/Colle.41d303159506d4f471a3.png",
     "static/media/bg-light.png": "/portfolio-app/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/portfolio-app/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/mock07.png": "/portfolio-app/static/media/mock07.b18db3bd2b64be7ccecd.png",
+    "static/media/sentence-transformers-all-MiniLM-L6-v2.png": "/portfolio-app/static/media/sentence-transformers-all-MiniLM-L6-v2.3a387d8a2bf5516ce776.png",
     "static/media/mock09.png": "/portfolio-app/static/media/mock09.87214740afe6a6e75aa1.png",
     "static/media/mock08.png": "/portfolio-app/static/media/mock08.a1d888e518c206e6dba6.png",
     "static/media/logs.png": "/portfolio-app/static/media/logs.551d2057cd6bae64857e.png",
@@ -19,10 +20,10 @@
     "static/media/kaWhite.png": "/portfolio-app/static/media/kaWhite.317c1f2c49b4157ff755.png",
     "index.html": "/portfolio-app/index.html",
     "main.21ffa260.css.map": "/portfolio-app/static/css/main.21ffa260.css.map",
-    "main.12ce0e04.js.map": "/portfolio-app/static/js/main.12ce0e04.js.map"
+    "main.813144db.js.map": "/portfolio-app/static/js/main.813144db.js.map"
   },
   "entrypoints": [
     "static/css/main.21ffa260.css",
-    "static/js/main.12ce0e04.js"
+    "static/js/main.813144db.js"
   ]
 }
