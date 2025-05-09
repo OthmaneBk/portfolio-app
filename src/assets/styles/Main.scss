@@ -10,11 +10,11 @@
     width: 100%;
     padding: 0px 15%;
     min-height: 700px;
-    background-image: url("../images/bg-dark.png");
+    background-image: url("../images/bg-dark.png"); /* Chemin absolu */
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
+    background-attachment: scroll; /* Remplacé fixed par scroll */
 }
 
 .about-section .content {
@@ -65,8 +65,7 @@
 }
 
 
-@media screen {
-    @media (max-width: 567px) {
+@media screen and (max-width: 567px) {
         .nav-left{
             padding-top: 20px;
             float:left;
@@ -105,7 +104,7 @@
         }
     }
 
-    @media (max-width:768px) {
+@media screen and (max-width:768px) {
         .about-section h1 {
             font-size: 4em !important;
             text-align: left;
@@ -136,11 +135,12 @@
         }
 
         .about-section {
-            padding-top: 150px;
-            display: block;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
+        padding-top: 150px;
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-attachment: scroll; /* Important pour mobile */
+    }
 
         .about-section .content {
             width: 90%;
@@ -153,5 +153,4 @@
             padding-left: 5%;
             width: 100%;
         }
-    }
 }

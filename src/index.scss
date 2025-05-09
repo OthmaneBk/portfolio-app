@@ -201,7 +201,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .about-section {
-    background-image: url("./assets/images/bg-light.png");
+    background-image: url("/assets/images/bg-light.png");
   }
 
   .skills-container svg {
@@ -235,10 +235,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 }
 
-@media screen {
-  @media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .items-container {
       padding: 5% 5%;
-    }
   }
 }
