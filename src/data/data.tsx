@@ -11,6 +11,7 @@ import logs from '../assets/images/logs.png';
 import Colle from '../assets/images/Colle.png';
 import Stu from '../assets/images/Stu.jpeg';
 import kafW from '../assets/images/kaWhite.png';
+import Model from '../assets/images/sentence-transformers-all-MiniLM-L6-v2.png';
 
 interface ProjectType {
     image: string;
@@ -19,6 +20,11 @@ interface ProjectType {
 }
 
 const projects: ProjectType[] = [
+    {
+        image:Model,
+        title: "Modèle de langage pour la classification de texte (NLP)",
+        description: "Le modèle all-MiniLM-L6-v2 vectorise les mots en 384D, pour obtenir une représentation sémantique globale de la phrase, le modèle applique une couche de mean pooling, le modele s'adapte à des tâches comme la classification produits et leurs labels. Enfin, la similarité cosinus permet de comparer (1=similaire, 0=différent) entre les phrases vectorisées."
+    },
     {
         image: kafW,
         title: "L'extraction des données via Apache Kafka",
